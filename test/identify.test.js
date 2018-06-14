@@ -408,13 +408,6 @@ describe('Identify', function() {
     });
   });
 
-  describe('.address()', function() {
-    it('should pull from a passed in address', function() {
-      var identify = new Identify({ traits: { address: '461 2nd St.' } });
-      assert.deepEqual(identify.address(), '461 2nd St.');
-    });
-  });
-
   describe('.avatar()', function() {
     it('should pull from passed in avatar', function() {
       var identify = new Identify({ traits: { avatar: '//avatars/avatar.jpg' } });

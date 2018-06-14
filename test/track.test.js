@@ -223,27 +223,6 @@ describe('Track', function() {
     });
   });
 
-  describe('.state()', function() {
-    it('should proxy state', function() {
-      var track = new Track({ properties: { state: 'state' } });
-      assert.strictEqual(track.state(), 'state');
-    });
-  });
-
-  describe('.city()', function() {
-    it('should proxy city', function() {
-      var track = new Track({ properties: { city: 'city' } });
-      assert.strictEqual(track.city(), 'city');
-    });
-  });
-
-  describe('.zip()', function() {
-    it('should proxy zip', function() {
-      var track = new Track({ properties: { zip: 'zip' } });
-      assert.strictEqual(track.zip(), 'zip');
-    });
-  });
-
   describe('.tax()', function() {
     it('should proxy tax', function() {
       var track = new Track({ properties: { tax: 'tax' } });
@@ -255,27 +234,6 @@ describe('Track', function() {
     it('should proxy name', function() {
       var track = new Track({ properties: { name: 'name' } });
       assert.strictEqual(track.name(), 'name');
-    });
-  });
-
-  describe('.country()', function() {
-    it('should proxy country', function() {
-      var track = new Track({ properties: { country: 'country' } });
-      assert.strictEqual(track.country(), 'country');
-    });
-
-    it('should proxy context.traits', function() {
-      var track = new Track({
-        context: {
-          traits: {
-            address: {
-              country: 'country'
-            }
-          }
-        }
-      });
-
-      assert.strictEqual(track.country(), 'country');
     });
   });
 

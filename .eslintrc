@@ -1,6 +1,7 @@
 {
-  "extends": "@segment/eslint-config/browser/legacy",
-
+  "globals": {
+    "JSON": true,
+  },
   "rules": {
     "guard-for-in": 0
   }

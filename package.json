@@ -1,5 +1,5 @@
 {
-  "name": "segmentio-facade",
+  "name": "bytegain-facade",
   "version": "3.2.3",
   "description": "Providing common fields for analytics integrations",
   "keywords": [],
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/segmentio/facade.git"
+    "url": "git+https://github.com/ByteGain/facade.git"
   },
   "author": "Segment <friends@segment.com>",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/segmentio/facade/issues"
+    "url": "https://github.com/ByteGain/facade/issues"
   },
-  "homepage": "https://github.com/segmentio/facade#readme",
+  "homepage": "https://github.com/ByteGain/facade#readme",
   "dependencies": {
     "@segment/isodate-traverse": "^1.0.0",
     "@ndhoule/clone": "^1.0.0",
